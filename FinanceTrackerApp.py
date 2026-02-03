@@ -7,7 +7,6 @@ from Expense import Expense
 from InputValidator import InputValidator
 
 class FinanceTrackerApp:
-    """Main application controller (keeps main.py almost empty)."""
 
     def __init__(self, data_file: str = "finance_data.json"):
         self.data_file = data_file
